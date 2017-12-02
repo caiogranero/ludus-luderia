@@ -1,0 +1,31 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/pm2/bin/pm2 start pm2-server.json",
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "keywords": [],
+  "author": "Caio Granero <caio.granero@usp.br>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "consign": "^0.1.6",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "helmet": "^3.6.1",
+    "moment": "^2.19.2",
+    "moment-timezone": "^0.5.14",
+    "mongodb": "^2.0.0",
+    "pm2": "^2.6.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.5.0",
+    "should": "^13.0.0"
+  }
+}

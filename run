@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Install web-app dependencies"
+cd api && npm install && cd ..
+echo "Install api dependencies"
+cd web-app && npm install && cd ..
+
+echo "start api with pm2"
+cd api && npm run dev && cd ..
+
+echo "start web-app with npm"
+cd web-app && npm run dev && cd ..
