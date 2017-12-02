@@ -1,6 +1,10 @@
-# vue-vehicle-crud
+# ludus-luderia
 
 ## Build Setup
+
+### Dependencies
+
+To run this repository, you will need the Node.js engine and MongoDB database
 
 ``` bash
 # install dependencies and run server in development
